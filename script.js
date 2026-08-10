@@ -1,7 +1,7 @@
 document.addEventListener("DOMContentLoaded", function () {
     console.log("NEUE SCRIPT.JS GELADEN");
 
-    fetch("/AGB/components/navbar.html")
+    fetch("/website/components/navbar.html")
         .then(response => {
             if (!response.ok) {
                 throw new Error("Navigation konnte nicht geladen werden.");
@@ -16,7 +16,7 @@ document.addEventListener("DOMContentLoaded", function () {
         });
 
 
-    fetch("/AGB/components/footer.html")
+    fetch("/website/components/footer.html")
         .then(response => {
             if (!response.ok) {
                 throw new Error("Footer konnte nicht geladen werden.");
