@@ -1,5 +1,5 @@
 document.addEventListener("DOMContentLoaded", function () {
-    console.log("NEUE SCRIPT.JS GELADEN");
+    console.log("v.0.1.0");
 
     fetch("/website/components/navbar.html")
         .then(response => {
