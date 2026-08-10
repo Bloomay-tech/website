@@ -1,7 +1,7 @@
 document.addEventListener("DOMContentLoaded", function () {
     console.log("v.0.1.1");
 
-    fetch("/website/components/navbar.html")
+    fetch("/components/navbar.html")
         .then(response => {
             if (!response.ok) {
                 throw new Error("Navigation konnte nicht geladen werden.");
@@ -16,7 +16,7 @@ document.addEventListener("DOMContentLoaded", function () {
         });
 
 
-    fetch("/website/components/footer.html")
+    fetch("/components/footer.html")
         .then(response => {
             if (!response.ok) {
                 throw new Error("Footer konnte nicht geladen werden.");
